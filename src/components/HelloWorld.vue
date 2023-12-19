@@ -1,13 +1,18 @@
 <template>
   <div class="hello">
     <div>
-      <el-tree
-        :data="data"
-        :props="defaultProps"
-        accordion
-        @node-click="handleNodeClick"
-      >
-      </el-tree>
+      <!--      频道列表-->
+      <div></div>
+      <!--      房间列表-->
+      <div>
+        <el-tree
+          :data="data"
+          :props="defaultProps"
+          accordion
+          @node-click="handleNodeClick"
+        >
+        </el-tree>
+      </div>
     </div>
   </div>
 </template>
