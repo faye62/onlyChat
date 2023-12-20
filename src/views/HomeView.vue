@@ -24,20 +24,4 @@ export default {
   flex-direction: row;
   align-items: center;
 }
-.home h1 {
-  font-size: 20px;
-  margin: 30px 0 0;
-}
-.home h3 {
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-}
-.home ul {
-}
-.homeImg {
-  width: 240px;
-  height: 400px;
-  margin-top: 5px;
-}
 </style>
